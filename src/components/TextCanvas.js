@@ -16,7 +16,7 @@ export default function TextCanvas() {
   const [textObjects, setTextObjects] = useState([])
   const [selectedText, setSelectedText] = useState(null)
   const [isDragging, setIsDragging] = useState(false)
-  const [canvasSize, setCanvasSize] = useState({ width: 800, height: 600 })
+  const [canvasSize, setCanvasSize] = useState({ width: 400, height: 300 })
   const [showGrid, setShowGrid] = useState(false)
   const [history, setHistory] = useState([])
   const [historyIndex, setHistoryIndex] = useState(-1)
